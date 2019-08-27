@@ -1,24 +1,20 @@
-# README
+# 準備
+```
+git remote add upstream https://github.com/kindainoob/server
+```
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+# 自分の変更を本流に反映させる
 
-Things you may want to cover:
+```
+$ git add .
+$ git commit -m "コミットメッセージ"
+$ git push
 
-* Ruby version
+githubのページからプルリクエストを送る
+```
 
-* System dependencies
+# 他の人の変更を自分に反映させる
 
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+```
+git pull upstream master
+```

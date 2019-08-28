@@ -2,7 +2,7 @@
 ```
 git remote add upstream https://github.com/kindainoob/server
 ```
-
+aaa
 # 自分の変更を本流に反映させる
 
 ```
